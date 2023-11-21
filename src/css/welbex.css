@@ -1,0 +1,92 @@
+.container {
+  max-width: 1140px;
+  height: 73px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar_wrapper {
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 0;
+  padding: 47px 52px 0 0;
+}
+.logo figcaption {
+  width: 100%;
+  max-width: 165px;
+  height: 24px;
+  top: 45px;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+nav li {
+  margin-right: 30px;
+  color: #fff;
+}
+nav li:last-child {
+  margin-right: 0;
+}
+
+.navbar_mobile {
+  margin: 0 47px 0 137px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons img {
+  margin-right: 30px;
+}
+
+.container {
+  max-width: 1140px;
+  height: 73px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+/*# sourceMappingURL=welbex.css.map */
