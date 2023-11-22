@@ -70,6 +70,25 @@ p {
   font-weight: normal;
   font-style: normal;
 }
+.first_ball {
+  width: auto;
+  position: absolute;
+  top: 10%;
+  left: 62%;
+}
+
+.second_ball {
+  width: auto;
+  height: 259px;
+  position: absolute;
+  top: 0%;
+  left: 40%;
+}
+
+.navbar {
+  position: relative;
+}
+
 .navbar_wrapper {
   height: 73px;
   display: grid;
@@ -230,6 +249,30 @@ p {
   font-weight: normal;
   font-style: normal;
 }
+.fifth_ball {
+  width: auto;
+  position: absolute;
+  top: 1%;
+  left: 0%;
+}
+
+.fourth_ball {
+  width: auto;
+  position: absolute;
+  left: 38%;
+}
+
+.third_ball {
+  width: auto;
+  position: absolute;
+  top: 88%;
+  left: 60%;
+}
+
+section {
+  position: relative;
+}
+
 .main_content {
   display: flex;
   justify-content: space-between;

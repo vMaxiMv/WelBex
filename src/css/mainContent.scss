@@ -1,7 +1,27 @@
 @import "index";
 @import "fonts";
-section{
 
+//-----Шары--------------------------
+.fifth_ball{
+  width: auto;
+  position: absolute;
+  top: 1%;
+  left: 0%;
+}
+.fourth_ball{
+  width: auto;
+  position: absolute;
+  left: 38%;
+}
+.third_ball{
+  width: auto;
+  position: absolute;
+  top: 88%;
+  left: 60%;
+}
+//-----Шары--------------------------
+section{
+ position: relative;
 }
 .main_content{
   display: flex;

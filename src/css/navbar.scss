@@ -1,7 +1,23 @@
 @import "index";
 @import "fonts";
-
-
+//-----Шары--------------------------
+.first_ball{
+  width: auto;
+  position: absolute;
+  top: 10%;
+  left: 62%;
+}
+.second_ball{
+  width: auto;
+  height: 259px;
+  position: absolute;
+  top: 0%;
+  left: 40%;
+}
+//-----Шары--------------------------
+.navbar{
+  position: relative;
+}
 .navbar_wrapper{
   height: 73px;
   //display: flex;
