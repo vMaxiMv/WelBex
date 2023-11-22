@@ -1,8 +1,13 @@
 $text-color: #E4E5EA;
+$footer_text_color: #656566;
 
+.wrapper{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 .container{
   max-width: 1140px;
-  height: 73px;
   width: 100%;
   margin: 0 auto;
 }

@@ -1,10 +1,13 @@
 @import "index";
+section{
 
+}
 .main_content{
   display: flex;
   justify-content: space-between;
   margin-top: 90px;
-  max-width: 1140px;
+  //max-width: 1140px;
+  flex: 1 1 auto;
 }
 .left_block{
   width: 362px;

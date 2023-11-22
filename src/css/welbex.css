@@ -1,6 +1,11 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   max-width: 1140px;
-  height: 73px;
   width: 100%;
   margin: 0 auto;
 }
@@ -31,14 +36,14 @@ p {
 
 .navbar_wrapper {
   height: 73px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 20% 40% 25% 15%;
   align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
   margin: 0;
-  padding: 47px 52px 0 0;
+  padding-top: 47px;
 }
 .logo figcaption {
   width: 100%;
@@ -56,6 +61,7 @@ p {
 
 nav ul {
   display: flex;
+  justify-content: space-between;
 }
 nav li {
   margin-right: 30px;
@@ -66,7 +72,7 @@ nav li:last-child {
 }
 
 .navbar_mobile {
-  margin: 0 47px 0 137px;
+  margin-left: 125px;
 }
 
 .icons {
@@ -74,9 +80,14 @@ nav li:last-child {
   display: flex;
   justify-content: space-between;
 }
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   max-width: 1140px;
-  height: 73px;
   width: 100%;
   margin: 0 auto;
 }
@@ -105,9 +116,14 @@ p {
   margin: 0;
 }
 
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   max-width: 1140px;
-  height: 73px;
   width: 100%;
   margin: 0 auto;
 }
@@ -140,7 +156,7 @@ p {
   display: flex;
   justify-content: space-between;
   margin-top: 90px;
-  max-width: 1140px;
+  flex: 1 1 auto;
 }
 
 .left_block {
@@ -224,6 +240,82 @@ p {
   border: none;
   color: #E4E5EA;
   font-size: 16px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: #E4E5EA;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: #0f1016;
+  color: #E4E5EA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  margin-top: auto;
+  padding-top: 120px;
+}
+footer h3 {
+  color: #656566;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+}
+footer li {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.footer_content {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.menu_block {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left_menu_block {
+  margin-right: 50px;
+}
+
+.right_part {
+  text-align: right;
+}
+.right_part li {
+  margin-top: 20px;
+}
+.right_part p {
+  margin-top: 70px;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=welbex.css.map */

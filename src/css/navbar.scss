@@ -3,13 +3,17 @@
 
 .navbar_wrapper{
   height: 73px;
-  display: flex;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  display: grid;
+  grid-template-columns: 20% 40% 25% 15%;
   align-items: center;
-  justify-content: space-between;
 }
 .logo{
   margin: 0;
-  padding: 47px 52px 0 0 ;
+  padding-top: 47px;
+  //padding: 47px 52px 0 0 ;
   figcaption{
     width: 100%;
     max-width: 165px;
@@ -27,6 +31,7 @@
 nav {
   ul {
     display: flex;
+    justify-content: space-between;
   }
   li {
     margin-right: 30px;
@@ -38,7 +43,8 @@ nav {
   }
 }
 .navbar_mobile{
-  margin: 0 47px 0 137px;
+  margin-left: 125px;
+  //margin: 0 47px 0 137px;
 }
 .icons{
   width: 80px;
