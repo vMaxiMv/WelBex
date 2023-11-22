@@ -1,4 +1,5 @@
 @import "index";
+@import "fonts";
 section{
 
 }
@@ -18,10 +19,11 @@ section{
     text-align: left;
 }
   h1{
+    @include Inter_regular;
     font-weight: 400;
   }
   h2{
-    font-weight: 900;
+    @include Inter_black;
     background: linear-gradient(92deg, rgba(252, 176, 69, 1), rgba(255, 63, 120, 1));
     -webkit-background-clip: text;
     color: transparent
@@ -30,9 +32,11 @@ section{
     width: 275px;
   }
   h3{
+    @include Montserrat_light;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 22px;
+    padding-top: 30px;
   }
 }
 .right_block{
@@ -45,6 +49,7 @@ section{
     text-align: right;
   }
   h1{
+    @include Inter_bold;
     margin-bottom: 30px;
     letter-spacing: 0.05em;
     text-align: right;
@@ -56,6 +61,7 @@ section{
     }
   }
   h2{
+    @include Inter_medium;
     font-weight: 500;
     line-height: 22px;
   }
@@ -71,6 +77,7 @@ section{
     align-items: end;
     //width: 140px;
     p{
+      @include Montserrat_light;
       text-align: right;
       margin-top: 6px;
     }
@@ -83,10 +90,12 @@ section{
   margin-top: 60px;
 }
 .btn{
+  @include Inter_light;
   width: 262px;
   height: 61px;
   background: rgba(64, 119, 243, 1);
   border: none;
   color: $text-color;
   font-size: 16px;
+  cursor: pointer;
 }

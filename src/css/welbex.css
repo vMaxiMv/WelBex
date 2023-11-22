@@ -34,10 +34,46 @@ p {
   margin: 0;
 }
 
+@font-face {
+  font-family: "Inter_light";
+  src: url("../fonts/Inter/static/Inter-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_regular";
+  src: url("../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_medium";
+  src: url("../fonts/Inter/static/Inter-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_bold";
+  src: url("../fonts/Inter/static/Inter-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_black";
+  src: url("../fonts/Inter/static/Inter-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat_light";
+  src: url("../fonts/Montserrat/static/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .navbar_wrapper {
   height: 73px;
   display: grid;
-  grid-template-columns: 20% 40% 25% 15%;
+  grid-template-columns: 20% 40% 30% 10%;
   align-items: center;
 }
 
@@ -57,6 +93,7 @@ p {
   text-align: left;
   color: #E4E5EA;
   margin-top: 10px;
+  font-family: "Montserrat_light", sans-serif;
 }
 
 nav ul {
@@ -64,6 +101,7 @@ nav ul {
   justify-content: space-between;
 }
 nav li {
+  font-family: "Inter_light", sans-serif;
   margin-right: 30px;
   color: #E4E5EA;
 }
@@ -72,49 +110,17 @@ nav li:last-child {
 }
 
 .navbar_mobile {
-  margin-left: 125px;
+  margin-left: 155px;
+}
+.navbar_mobile a {
+  font-family: "Inter_light", sans-serif;
 }
 
 .icons {
-  width: 80px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.container {
-  max-width: 1140px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-a {
-  color: #E4E5EA;
-  text-decoration: none;
-}
-
-body {
-  margin: 0;
-  background-color: #0f1016;
-  color: #E4E5EA;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
 
 .wrapper {
   min-height: 100vh;
@@ -152,6 +158,78 @@ p {
   margin: 0;
 }
 
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: #E4E5EA;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: #0f1016;
+  color: #E4E5EA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Inter_light";
+  src: url("../fonts/Inter/static/Inter-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_regular";
+  src: url("../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_medium";
+  src: url("../fonts/Inter/static/Inter-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_bold";
+  src: url("../fonts/Inter/static/Inter-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_black";
+  src: url("../fonts/Inter/static/Inter-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat_light";
+  src: url("../fonts/Montserrat/static/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .main_content {
   display: flex;
   justify-content: space-between;
@@ -169,10 +247,11 @@ p {
   text-align: left;
 }
 .left_block h1 {
+  font-family: "Inter_regular", sans-serif;
   font-weight: 400;
 }
 .left_block h2 {
-  font-weight: 900;
+  font-family: "Inter_black", sans-serif;
   background: linear-gradient(92deg, rgb(252, 176, 69), rgb(255, 63, 120));
   -webkit-background-clip: text;
   color: transparent;
@@ -181,9 +260,11 @@ p {
   width: 275px;
 }
 .left_block h3 {
+  font-family: "Montserrat_light", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 22px;
+  padding-top: 30px;
 }
 
 .right_block {
@@ -197,6 +278,7 @@ p {
   text-align: right;
 }
 .right_block h1 {
+  font-family: "Inter_bold", sans-serif;
   margin-bottom: 30px;
   letter-spacing: 0.05em;
   text-align: right;
@@ -208,6 +290,7 @@ p {
   color: transparent;
 }
 .right_block h2 {
+  font-family: "Inter_medium", sans-serif;
   font-weight: 500;
   line-height: 22px;
 }
@@ -223,6 +306,7 @@ p {
   align-items: end;
 }
 .gifts div p {
+  font-family: "Montserrat_light", sans-serif;
   text-align: right;
   margin-top: 6px;
 }
@@ -234,12 +318,14 @@ p {
 }
 
 .btn {
+  font-family: "Inter_light", sans-serif;
   width: 262px;
   height: 61px;
   background: rgb(64, 119, 243);
   border: none;
   color: #E4E5EA;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -278,17 +364,55 @@ p {
   margin: 0;
 }
 
+@font-face {
+  font-family: "Inter_light";
+  src: url("../fonts/Inter/static/Inter-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_regular";
+  src: url("../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_medium";
+  src: url("../fonts/Inter/static/Inter-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_bold";
+  src: url("../fonts/Inter/static/Inter-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter_black";
+  src: url("../fonts/Inter/static/Inter-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat_light";
+  src: url("../fonts/Montserrat/static/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 footer {
   margin-top: auto;
   padding-top: 120px;
 }
 footer h3 {
+  font-family: "Inter_bold", sans-serif;
   color: #656566;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.94px;
 }
 footer li {
+  font-family: "Inter_regular", sans-serif;
   margin-bottom: 10px;
   font-weight: 400;
 }
@@ -314,8 +438,12 @@ footer li {
   margin-top: 20px;
 }
 .right_part p {
-  margin-top: 70px;
+  font-family: "Montserrat_light", sans-serif;
+  margin: 70px 0 30px 0;
   font-size: 12px;
+}
+.right_part p a {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=welbex.css.map */

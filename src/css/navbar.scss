@@ -1,4 +1,5 @@
 @import "index";
+@import "fonts";
 
 
 .navbar_wrapper{
@@ -7,7 +8,7 @@
   //align-items: center;
   //justify-content: center;
   display: grid;
-  grid-template-columns: 20% 40% 25% 15%;
+  grid-template-columns: 20% 40% 30% 10%;
   align-items: center;
 }
 .logo{
@@ -26,6 +27,7 @@
     text-align: left;
     color: $text-color;
     margin-top: 10px;
+    @include Montserrat_light
   }
 }
 nav {
@@ -34,6 +36,7 @@ nav {
     justify-content: space-between;
   }
   li {
+    @include Inter_light;
     margin-right: 30px;
     color: $text-color;
   }
@@ -43,14 +46,17 @@ nav {
   }
 }
 .navbar_mobile{
-  margin-left: 125px;
+  margin-left: 155px;
   //margin: 0 47px 0 137px;
+  a{
+    @include Inter_light;
+  }
 }
 .icons{
-  width: 80px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  .link_icon{
-
-  }
+  //.link_icon{
+  //  margin-left: 30px;
+  //}
 }
