@@ -34,6 +34,80 @@ p {
   margin: 0;
 }
 
+.first_ball {
+  width: auto;
+  position: absolute;
+  top: 0;
+  left: 62%;
+}
+
+.second_ball {
+  width: 60px;
+  height: 259px;
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+
+.third_ball {
+  width: auto;
+  position: absolute;
+  top: 58%;
+  left: 60%;
+}
+
+.fourth_ball {
+  width: auto;
+  position: absolute;
+  left: 40%;
+  top: 8%;
+}
+
+.fifth_ball {
+  width: 311px;
+  position: absolute;
+  top: 5%;
+  left: 23%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .first_ball {
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 86%;
+  }
+  .second_ball {
+    width: 60px;
+    height: 259px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+  .third_ball {
+    width: auto;
+    position: absolute;
+    top: 58%;
+    left: 60%;
+  }
+  .fourth_ball {
+    width: auto;
+    position: absolute;
+    left: 6%;
+    top: 65%;
+  }
+  .fifth_ball {
+    width: 311px;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+  }
+}
 @font-face {
   font-family: "Inter_light";
   src: url("../fonts/Inter/static/Inter-Light.ttf") format("truetype");
@@ -70,21 +144,6 @@ p {
   font-weight: normal;
   font-style: normal;
 }
-.first_ball {
-  width: auto;
-  position: absolute;
-  top: 10%;
-  left: 62%;
-}
-
-.second_ball {
-  width: auto;
-  height: 259px;
-  position: absolute;
-  top: 0%;
-  left: 40%;
-}
-
 .navbar {
   position: relative;
 }
@@ -92,7 +151,7 @@ p {
 .navbar_wrapper {
   height: 73px;
   display: grid;
-  grid-template-columns: 20% 40% 30% 10%;
+  grid-template-columns: 20% 45% 25% 10%;
   align-items: center;
 }
 
@@ -118,10 +177,10 @@ p {
 nav ul {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 nav li {
   font-family: "Inter_light", sans-serif;
-  margin-right: 30px;
   color: #E4E5EA;
 }
 nav li:last-child {
@@ -129,7 +188,7 @@ nav li:last-child {
 }
 
 .navbar_mobile {
-  margin-left: 155px;
+  margin-left: 100px;
 }
 .navbar_mobile a {
   font-family: "Inter_light", sans-serif;
@@ -141,6 +200,37 @@ nav li:last-child {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 767px) {
+  .navbar_wrapper {
+    display: flex;
+  }
+  .logo {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  nav li {
+    display: none;
+    margin: 20px;
+  }
+  nav li:nth-child(1),
+  nav li:nth-child(2),
+  nav li:nth-child(3),
+  nav li:nth-child(4) {
+    display: inline-block;
+    margin: 0;
+  }
+  .navbar_mobile {
+    display: none;
+  }
+  .icons {
+    display: none;
+  }
+}
 .wrapper {
   min-height: 100vh;
   display: flex;
@@ -177,6 +267,80 @@ p {
   margin: 0;
 }
 
+.first_ball {
+  width: auto;
+  position: absolute;
+  top: 0;
+  left: 62%;
+}
+
+.second_ball {
+  width: 60px;
+  height: 259px;
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+
+.third_ball {
+  width: auto;
+  position: absolute;
+  top: 58%;
+  left: 60%;
+}
+
+.fourth_ball {
+  width: auto;
+  position: absolute;
+  left: 40%;
+  top: 8%;
+}
+
+.fifth_ball {
+  width: 311px;
+  position: absolute;
+  top: 5%;
+  left: 23%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .first_ball {
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 86%;
+  }
+  .second_ball {
+    width: 60px;
+    height: 259px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+  .third_ball {
+    width: auto;
+    position: absolute;
+    top: 58%;
+    left: 60%;
+  }
+  .fourth_ball {
+    width: auto;
+    position: absolute;
+    left: 6%;
+    top: 65%;
+  }
+  .fifth_ball {
+    width: 311px;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+  }
+}
 .wrapper {
   min-height: 100vh;
   display: flex;
@@ -213,6 +377,80 @@ p {
   margin: 0;
 }
 
+.first_ball {
+  width: auto;
+  position: absolute;
+  top: 0;
+  left: 62%;
+}
+
+.second_ball {
+  width: 60px;
+  height: 259px;
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+
+.third_ball {
+  width: auto;
+  position: absolute;
+  top: 58%;
+  left: 60%;
+}
+
+.fourth_ball {
+  width: auto;
+  position: absolute;
+  left: 40%;
+  top: 8%;
+}
+
+.fifth_ball {
+  width: 311px;
+  position: absolute;
+  top: 5%;
+  left: 23%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .first_ball {
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 86%;
+  }
+  .second_ball {
+    width: 60px;
+    height: 259px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+  .third_ball {
+    width: auto;
+    position: absolute;
+    top: 58%;
+    left: 60%;
+  }
+  .fourth_ball {
+    width: auto;
+    position: absolute;
+    left: 6%;
+    top: 65%;
+  }
+  .fifth_ball {
+    width: 311px;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+  }
+}
 @font-face {
   font-family: "Inter_light";
   src: url("../fonts/Inter/static/Inter-Light.ttf") format("truetype");
@@ -249,26 +487,6 @@ p {
   font-weight: normal;
   font-style: normal;
 }
-.fifth_ball {
-  width: auto;
-  position: absolute;
-  top: 1%;
-  left: 0%;
-}
-
-.fourth_ball {
-  width: auto;
-  position: absolute;
-  left: 38%;
-}
-
-.third_ball {
-  width: auto;
-  position: absolute;
-  top: 88%;
-  left: 60%;
-}
-
 section {
   position: relative;
 }
@@ -343,6 +561,9 @@ section {
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
+.gifts img {
+  display: none;
+}
 .gifts div {
   display: grid;
   grid-template-rows: 1fr auto;
@@ -359,8 +580,7 @@ section {
   justify-content: end;
   margin-top: 60px;
 }
-
-.btn {
+.btn_block .btn {
   font-family: "Inter_light", sans-serif;
   width: 262px;
   height: 61px;
@@ -371,6 +591,43 @@ section {
   cursor: pointer;
 }
 
+@media screen and (max-width: 767px) {
+  .main_content {
+    display: block;
+    margin-top: 60px;
+  }
+  .left_block {
+    margin: 0 auto;
+  }
+  .left_block h1 {
+    text-align: left;
+    font-size: 36px;
+  }
+  .right_block {
+    margin-top: 45px;
+    width: 100%;
+  }
+  .right_block h1 {
+    text-align: left;
+  }
+  .gifts .gifts_list {
+    display: flex;
+    align-items: center;
+  }
+  .gifts img {
+    padding-right: 8px;
+    display: block;
+  }
+  .gifts h2 {
+    font-family: "Montserrat_light", sans-serif;
+  }
+  .gifts p {
+    display: none;
+  }
+  .btn_block {
+    display: none;
+  }
+}
 .wrapper {
   min-height: 100vh;
   display: flex;
@@ -407,6 +664,80 @@ p {
   margin: 0;
 }
 
+.first_ball {
+  width: auto;
+  position: absolute;
+  top: 0;
+  left: 62%;
+}
+
+.second_ball {
+  width: 60px;
+  height: 259px;
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+
+.third_ball {
+  width: auto;
+  position: absolute;
+  top: 58%;
+  left: 60%;
+}
+
+.fourth_ball {
+  width: auto;
+  position: absolute;
+  left: 40%;
+  top: 8%;
+}
+
+.fifth_ball {
+  width: 311px;
+  position: absolute;
+  top: 5%;
+  left: 23%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .first_ball {
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 86%;
+  }
+  .second_ball {
+    width: 60px;
+    height: 259px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+  .third_ball {
+    width: auto;
+    position: absolute;
+    top: 58%;
+    left: 60%;
+  }
+  .fourth_ball {
+    width: auto;
+    position: absolute;
+    left: 6%;
+    top: 65%;
+  }
+  .fifth_ball {
+    width: 311px;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+  }
+}
 @font-face {
   font-family: "Inter_light";
   src: url("../fonts/Inter/static/Inter-Light.ttf") format("truetype");
@@ -487,6 +818,33 @@ footer li {
 }
 .right_part p a {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .footer_content {
+    display: block;
+    width: 100%;
+  }
+  .footer_content li {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .footer_content h3 {
+    font-size: 12px;
+  }
+  .footer_content img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  .right_part {
+    text-align: left;
+  }
+  .right_part li:nth-child(1) {
+    font-size: 16px;
+  }
+  p {
+    margin: 50px 0 80px 0;
+  }
 }
 
 /*# sourceMappingURL=welbex.css.map */

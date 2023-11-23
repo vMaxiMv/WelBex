@@ -45,3 +45,31 @@ footer{
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+ .footer_content{
+   display: block;
+   width: 100%;
+   li{
+     margin-top: 10px;
+     font-size: 14px;
+   }
+   h3{
+     font-size: 12px;
+   }
+   img{
+     width: 24px;
+     margin-right: 10px;
+   }
+ }
+  .right_part{
+    text-align: left;
+
+    li:nth-child(1){
+      font-size: 16px;
+    }
+  }
+  p{
+    margin: 50px 0 80px 0;
+  }
+}

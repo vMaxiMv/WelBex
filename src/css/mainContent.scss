@@ -1,25 +1,6 @@
 @import "index";
 @import "fonts";
 
-//-----Шары--------------------------
-.fifth_ball{
-  width: auto;
-  position: absolute;
-  top: 1%;
-  left: 0%;
-}
-.fourth_ball{
-  width: auto;
-  position: absolute;
-  left: 38%;
-}
-.third_ball{
-  width: auto;
-  position: absolute;
-  top: 88%;
-  left: 60%;
-}
-//-----Шары--------------------------
 section{
  position: relative;
 }
@@ -27,9 +8,9 @@ section{
   display: flex;
   justify-content: space-between;
   margin-top: 90px;
-  //max-width: 1140px;
   flex: 1 1 auto;
 }
+//-----Левая часть ---------------------
 .left_block{
   width: 362px;
   h1,h2,h3{
@@ -59,6 +40,7 @@ section{
     padding-top: 30px;
   }
 }
+//-----Правая часть ---------------------
 .right_block{
   width: 330px;
   h1, h2{
@@ -90,7 +72,9 @@ section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-
+  img{
+    display: none;
+  }
   div{
     display: grid;
     grid-template-rows: 1fr auto;
@@ -108,14 +92,62 @@ section{
   display: flex;
   justify-content: end;
   margin-top: 60px;
+
+  .btn{
+    @include Inter_light;
+    width: 262px;
+    height: 61px;
+    background: rgba(64, 119, 243, 1);
+    border: none;
+    color: $text-color;
+    font-size: 16px;
+    cursor: pointer;
+  }
 }
-.btn{
-  @include Inter_light;
-  width: 262px;
-  height: 61px;
-  background: rgba(64, 119, 243, 1);
-  border: none;
-  color: $text-color;
-  font-size: 16px;
-  cursor: pointer;
+
+//-----Адаптив для мобильных устройств ---------------------
+
+@media screen and (max-width: 767px) {
+  .main_content{
+    display: block;
+    margin-top: 60px;
+  }
+  //-----Верхний блок ---------------------
+  .left_block{
+    margin: 0 auto;
+    h1{
+      text-align: left;
+      font-size: 36px;
+    }
+}
+  //-----Нижний блок ---------------------
+  .right_block{
+    margin-top: 45px;
+    width: 100%;
+
+    h1{
+      text-align: left;
+    }
+  }
+  .gifts
+  {
+    .gifts_list{
+      display: flex;
+      align-items: center;
+    }
+    img{
+      padding-right: 8px;
+      display: block;
+    }
+    h2{
+      @include Montserrat_light;
+       //text-align: left;
+    }
+    p{
+      display: none;
+    }
+  }
+  .btn_block{
+    display: none;
+  }
 }

@@ -31,3 +31,81 @@ p{
   margin: 0;
 }
 
+//-------Шары-------------------------
+.first_ball{
+  width: auto;
+  position: absolute;
+  top: 0;
+  left: 62%;
+}
+.second_ball{
+  width: 60px;
+  height: 259px;
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+.third_ball{
+  width: auto;
+  position: absolute;
+  top: 58%;
+  left: 60%;
+}
+.fourth_ball{
+  width: auto;
+  position: absolute;
+  left: 40%;
+  top: 8%
+}
+.fifth_ball{
+  width: 311px;
+  position: absolute;
+  top: 5%;
+  left: 23%;
+}
+
+
+//-------Шары-------------------------
+@media screen and (max-width: 767px){
+  .container{
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  //-------Шары-------------------------
+  .first_ball{
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 86%;
+  }
+  .second_ball{
+    width: 60px;
+    height: 259px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+  .third_ball{
+    width: auto;
+    position: absolute;
+    top: 58%;
+    left: 60%;
+  }
+  .fourth_ball{
+    width: auto;
+    position: absolute;
+    left: 6%;
+    top: 65%
+  }
+  .fifth_ball{
+    width: 311px;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+  }
+  //-------Шары-------------------------
+}
+
+
