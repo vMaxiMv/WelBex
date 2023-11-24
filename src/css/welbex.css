@@ -72,7 +72,6 @@ p {
 
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 500px;
     width: 90%;
     margin: 0 auto;
   }
@@ -80,7 +79,7 @@ p {
     width: auto;
     position: absolute;
     top: 40%;
-    left: 86%;
+    left: 76%;
   }
   .second_ball {
     width: 60px;
@@ -305,7 +304,6 @@ p {
 
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 500px;
     width: 90%;
     margin: 0 auto;
   }
@@ -313,7 +311,7 @@ p {
     width: auto;
     position: absolute;
     top: 40%;
-    left: 86%;
+    left: 76%;
   }
   .second_ball {
     width: 60px;
@@ -415,7 +413,6 @@ p {
 
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 500px;
     width: 90%;
     margin: 0 auto;
   }
@@ -423,7 +420,7 @@ p {
     width: auto;
     position: absolute;
     top: 40%;
-    left: 86%;
+    left: 76%;
   }
   .second_ball {
     width: 60px;
@@ -499,12 +496,11 @@ section {
 }
 
 .left_block {
-  width: 362px;
+  max-width: 362px;
 }
 .left_block h1, .left_block h2, .left_block h3 {
   font-size: 48px;
   line-height: 58px;
-  letter-spacing: 0em;
   text-align: left;
 }
 .left_block h1 {
@@ -702,7 +698,6 @@ p {
 
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 500px;
     width: 90%;
     margin: 0 auto;
   }
@@ -710,7 +705,7 @@ p {
     width: auto;
     position: absolute;
     top: 40%;
-    left: 86%;
+    left: 76%;
   }
   .second_ball {
     width: 60px;

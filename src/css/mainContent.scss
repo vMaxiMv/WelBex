@@ -12,11 +12,10 @@ section{
 }
 //-----Левая часть ---------------------
 .left_block{
-  width: 362px;
+  max-width: 362px;
   h1,h2,h3{
     font-size: 48px;
     line-height: 58px;
-    letter-spacing: 0em;
     text-align: left;
 }
   h1{
@@ -115,6 +114,9 @@ section{
   //-----Верхний блок ---------------------
   .left_block{
     margin: 0 auto;
+    h1,h2{
+     // display: inline;
+    }
     h1{
       text-align: left;
       font-size: 36px;
